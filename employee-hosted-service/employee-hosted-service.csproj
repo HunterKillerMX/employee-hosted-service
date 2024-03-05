@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-employee_hosted_service-e23e93da-7981-44be-aa7d-564b1a2247e0</UserSecretsId>
+    <RootNamespace>employee_hosted_service</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\employee-hosted-config\employee-hosted-config.csproj" />
+    <ProjectReference Include="..\employee-hosted-model\employee-hosted-model.csproj" />
+    <ProjectReference Include="..\employee-hosted-infrastructure\employee-hosted-infrastructure.csproj" />
+  </ItemGroup>
+</Project>
